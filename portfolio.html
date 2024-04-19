@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidor</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e4e4e4;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            margin-bottom: 20px; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 50;
+            margin: 0; 
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 60px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0; 
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #00a2ff; 
+        }
+
+        section {
+            padding: 20px;
+            text-align: center; 
+        }
+
+        p {
+            color: #000000;
+            font-size: 22px;
+            font-family: monospace;
+        }
+
+        .header-logo {
+             display: flex;
+             align-items: center;
+        }
+
+        .logo-space {
+              margin-left: 20px;
+        }
+
+        .image-container img,
+        .video-container iframe {
+            display: block;
+            margin: 0 auto; 
+        }
+
+        .image-container p,
+        .video-container p {
+            text-align: center; 
+        }
+
+        div {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+        
+        .active {
+            color: #00a2ff;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="header-logo">
+            <span>Aljun Hans M, Evidor</span>
+            <img class="logo-space" src="logo.png" alt="User Image">
+        </div>
+    </header>
+
+    <section>
+        <p>Portfolio</p>
+        <div class="image-container">
+            <img src="CODE.PNG" alt="Image 1"  width="760" height="800">
+            <p>Python Activity 2</p>
+            <img src="CODE 2.PNG" alt="Image 2"  width="760" height="800">
+            <p>PETA 2</p>
+            <img src="Evidor_PCToolsPoster.JPEG" alt="Image 3" width="760" height="800">
+            <p>Tool and Equipment poster</p>
+        </div>
+        <div class="video-container">
+            <iframe width="700" height="400" src=https://youtube.com/embed/6pqNyI831ZE> frameborder="0" allowfullscreen></iframe>
+            <p>Lecture Video</p>
+        </div>
+    </section>
+
+</body>
+</html>
+
